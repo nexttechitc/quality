@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can signup",
+        "description": "",
+        "id": "this-is-a-login-feature-sprint1;verify-user-can-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194866600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open \"\u003cURL\u003e\" Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSprint1.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12051193800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: signin2\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.8.3\u0027, revision: \u0027e5e76298c3\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy27.click(Unknown Source)\r\n\tat QUALITY_PAGE_ACTIONS.Quality_HomePageActions.ClickSignUpLink(Quality_HomePageActions.java:10)\r\n\tat QUALITY_STEPDEFF.LoginSprint1.click_SignUp_Link(LoginSprint1.java:27)\r\n\tat ✽.Then Click SignUp Link(LoginSprint1.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Click SignUp Link",
+            "match": {
+              "location": "LoginSprint1.click_SignUp_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter username Password",
+            "match": {
+              "location": "LoginSprint1.enter_username_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click SignUP button",
+            "match": {
+              "location": "LoginSprint1.click_SignUP_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Jahan4"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Login feature Sprint1",
+    "description": "",
+    "id": "this-is-a-login-feature-sprint1",
+    "keyword": "Feature",
+    "uri": "LoginSprint1.feature"
+  }
+]
